@@ -7,26 +7,54 @@
     <title>Calculator</title>
   </head>
   <body>
-    <div class="calculator">
-      <div class="display" id="display"></div>
-      <div class="buttons">
-        <button class="digit" id="digit">7</button>
-        <button class="digit" id="digit">8</button>
-        <button class="digit" id="digit">9</button>
-        <button class="operator" id="operation">/</button>
-        <button class="digit" id="digit">4</button>
-        <button class="digit" id="digit">5</button>
-        <button class="digit" id="digit">6</button>
-        <button class="operator" id="operation">X</button>
-        <button class="digit" id="digit">1</button>
-        <button class="digit" id="digit">2</button>
-        <button class="digit" id="digit">3</button>
-        <button class="operator" id="operation">-</button>
-        <button class="digit" id="digit">0</button>
-        <button class="operator" id="operation">.</button>
-        <button class="operator" id="operation-equal">=</button>
-        <button class="operator" id="operation">+</button>
-        <button class="clear" id="clear">C</button>
+    <div class="container">
+      <div class="calculator">
+        <div class="display" id="display"></div>
+
+        <div class="buttons">
+          <div class="row">
+            <button class="clear button" id="clear">AC</button>
+            <!-- <button class="del button" id="clear">DE</button> -->
+            <button class="operator button" id="operation">+</button>
+          </div>
+
+          <div class="row">
+            <button class="digit button" id="digit">7</button>
+
+            <button class="digit button" id="digit">8</button>
+
+            <button class="digit button" id="digit">9</button>
+
+            <button class="operator button" id="operation">/</button>
+          </div>
+          <div class="row">
+            <button class="digit button" id="digit">4</button>
+
+            <button class="digit button" id="digit">5</button>
+
+            <button class="digit button" id="digit">6</button>
+
+            <button class="operator button" id="operation">X</button>
+          </div>
+          <div class="row">
+            <button class="digit button" id="digit">1</button>
+
+            <button class="digit button" id="digit">2</button>
+
+            <button class="digit button" id="digit">3</button>
+
+            <button class="operator button" id="operation">-</button>
+          </div>
+          <div class="row">
+            <button class="digit button" id="digit">0</button>
+
+            <button class="button" id="dot">.</button>
+
+            <button class="operator equal button" id="operation-equal">
+              =
+            </button>
+          </div>
+        </div>
       </div>
     </div>
     <script src="app.js"></script>

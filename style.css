@@ -1,3 +1,55 @@
 :root {
   color-scheme: light dark; /* both supported */
 }
+.row {
+  display: flex;
+  margin: 10px 0;
+}
+.container {
+  max-width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+}
+/* container */
+.buttons {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 48px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.clear {
+  width: 280px;
+  border-radius: 16px;
+  background-color: rgb(164, 43, 43);
+}
+.calculator {
+  width: fit-content;
+  margin: 0 auto;
+}
+.display {
+  max-width: 800px;
+  height: 100px;
+  font-size: 32px;
+  text-align: right;
+  margin: 0 auto;
+}
+.operator.button {
+  background-color: rgb(22, 170, 22);
+}
+
+.operator.equal {
+  width: 160px;
+  border-radius: 16px;
+  background-color: orange;
+}
+.del {
+  background-color: cadetblue;
+}
